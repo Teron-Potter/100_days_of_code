@@ -1,0 +1,32 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #292929;
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+  color: #98cdff;
+}
+
+p {
+  font-weight: 100;
+  text-align: center;
+  color: #534b4b;
+}
+
+a {
+  color: #e276f8;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#todays-challenge {
+  font-weight: 100;
+  color: #ffae00;
+  font-size: 28px;
+}
