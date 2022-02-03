@@ -1,0 +1,28 @@
+body {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  text-align: left;
+  font-family: 'Oswald';
+}
+
+#return-home {
+  text-align: left;
+  color: #ffb95e;
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
+}
+
+#return-home:hover {
+  text-decoration: underline;
+}
+
+#headline-text {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.fira-sans {
+  color: #ffb95e;
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+}
