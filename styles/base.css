@@ -1,0 +1,85 @@
+/* Font Information 
+Google Font Families
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+
+Font Weights Available
+  Roboto Mono
+    Thin 100
+    Thin 100 Italic
+    Light 300
+    Light 300 Italic
+    Regular 400
+    Regular 400 Italic
+    Bold 700
+    Bold 700 Italic
+  
+  Fira Sans
+    Thin 100
+    Thin 100 Italic
+    Light 300
+    Light 300 Italic
+    Regular 400
+    Regular 400 Italic
+    Bold 700
+
+  
+  Oswald
+    Extra-light 200
+    Regular 400
+    Bold 700
+*/
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #40183d;
+  font-family: "Roboto Mono", monospace;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.big-graphic-header {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(../images/main-graphic-2560.jpg);
+}
+
+.main-page-header1 {
+  margin: 25px 20%;
+  padding: 25px 25px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #1d1d1d;
+  border-radius: 50px;
+}
+
+.link-to-day {
+  margin: 1% 35%;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+  background-color: #ff9839;
+  border-radius: 50px;
+}
