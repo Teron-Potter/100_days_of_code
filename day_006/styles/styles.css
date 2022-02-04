@@ -1,0 +1,71 @@
+body {
+  margin: 50px;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  background-color: #40183e;
+}
+
+h1 {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+p {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  color: #534b4b;
+  font-weight: 100;
+}
+
+a {
+  color: #ff9739;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+ul {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  list-style: none;
+}
+
+.fira-sans {
+  margin: 10px 10px;
+  padding: 10px 10px;
+  color: #1d1d1d;
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.challenge-item {
+  margin: 1% 20%;
+  padding: 10px 10px;
+  color: #1d1d1d;
+  background-color: #ff9739;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.benign-item {
+  margin: 1% 20%;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: "Fira Sans", sans-serif;
+}
