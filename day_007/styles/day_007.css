@@ -1,11 +1,26 @@
 .main-heading {
-  columns: #ffffff;
+  margin: 10px auto;
+  padding: 5px 5px;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
 }
 
 .sub-heading {
-  color: #FF9739;
+  margin: 10px auto;
+  padding: 5px 5px;
+  color: #ff9739;
+  font-size: 24px;
+  text-align: center;
 }
 
 .objective {
-
+  width: 45%;
+  margin: 10px auto;
+  padding: 10px 15px;
+  color: #1d1d1d;
+  background-color: #ff9739;
+  border-radius: 25px;
+  font-size: 18px;
+  text-align: center;
 }
