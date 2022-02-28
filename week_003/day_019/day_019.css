@@ -46,7 +46,7 @@ header a {
   border-radius: 6px;
 }
 
-header a:hover {
+header nav a:hover {
   color: rgb(77, 77, 77);
   background-color: rgb(255, 251, 0);
 }
@@ -159,7 +159,7 @@ header a:hover {
 }
 
 footer {
-  background: linear-gradient(0deg, rgb(0,0,0), rgb(50,50,50));
+  background: linear-gradient(0deg, rgb(0, 0, 0), rgb(50, 50, 50));
   padding: 18px 0;
 }
 

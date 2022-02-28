@@ -7,8 +7,24 @@ header {
   position: static;
 }
 
+#page-logo a {
+  color: rgb(183, 230, 235);
+}
+
+header a {
+  color: rgb(183, 230, 235);
+}
+
+header nav a:hover {
+  color: rgb(59, 59, 59);
+  background-color: rgb(183, 230, 235);
+}
+
 main ul {
-  width: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px 25px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -20,17 +36,27 @@ main li {
   overflow: hidden;
 }
 
+main li:nth-of-type(3) {
+  width: 100%;
+  grid-column: 1 / span 2;
+}
+
 main li img {
   width: 300px;
-  height: 280px;
+  height: 300px;
   object-fit: cover;
 }
 
 .item-content {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 24px;
+}
+
+.item-content h2 {
+  margin: 0;
 }
 
 .actions {
