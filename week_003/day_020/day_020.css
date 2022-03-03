@@ -62,7 +62,7 @@ header nav ul li:hover {
 }
 
 #leading-info {
-  margin-top: 18px;
+  margin: 24px 0;
   text-align: center;
 }
 
@@ -70,10 +70,15 @@ header nav ul li:hover {
   font-size: 52px;
 }
 
+#menu-section {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .card-list {
   display: grid;
-  grid-template: 1fr 1fr;
-  gap: 20px 20px;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
 }
 
 .card-list li {
@@ -83,6 +88,7 @@ header nav ul li:hover {
   height: 400px;
   border-radius: 6px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .image-wrapper {
