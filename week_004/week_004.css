@@ -1,0 +1,55 @@
+a {
+  text-decoration: none;
+  margin: 0px 2px;
+  padding: 1px 4px;
+  border-radius: 4px;
+  color: rgb(29, 29, 29);
+  background-color: rgb(255, 237, 177);
+}
+
+a:hover {
+  background-color: rgb(249, 201, 40);
+}
+
+a:link {
+  color: rgb(29, 29, 29);
+}
+
+a:link:visited {
+  color: rgb(89, 50, 208);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(248, 241, 255);
+}
+
+h1 {
+  margin: 20px 0px;
+  padding: 15px 0px;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+  color: rgb(89, 50, 208);
+}
+
+li {
+  margin: 20px 0;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
+}
+
+.important-li {
+  color: rgb(255, 237, 177);
+  border-color: rgb(247, 209, 85);
+}
+
+.purple-box {
+  margin: 0 auto;
+  padding: 24px 24px;
+  width: 1000px;
+  max-width: 75%;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(122, 73, 216);
+}
