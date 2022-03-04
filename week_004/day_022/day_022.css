@@ -4,7 +4,7 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Roboto Mono', monospace; 
 */
 
-a, h1, ul, li {
+a, p, h1, ul, li {
   margin: 0;
   padding: 0;
 }
@@ -24,7 +24,7 @@ body {
 
 header {
   font-size: 1.5rem;
-  padding: 2em;
+  padding: 1em;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -32,20 +32,20 @@ header {
 }
 
 header nav {
-  height: 50px;
+  height: 3rem;
 }
 
 header nav ul {
   display: flex;
-  height: 50px;
+  height: 3rem;
   margin: 0 auto;
 }
 
 header nav ul li {
   display: flex;
   align-items: center;
-  height: 50px;
-  padding: 8px 8px;
+  height: 1rem;
+  padding: 16px;
   margin: 0 auto;
   border-radius: 6px;
 }
@@ -69,23 +69,22 @@ header nav ul li:hover {
 }
 
 #leading-info {
-  /* margin: 24px 0; */
+  padding: 2em;
   text-align: center;
 }
 
 #leading-info h1 {
-  font-size: 52px;
+  font-size: 3rem;
 }
 
 #menu-section {
-  width: 1200px;
-  margin: 0 auto;
+  margin: 0 6rem;
 }
 
 .card-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0;
+  gap: 3rem;
 }
 
 .card-list li {
@@ -100,7 +99,7 @@ header nav ul li:hover {
 
 .image-wrapper {
   overflow: hidden;
-  height: 300px;
+  height: 275px;
 }
 
 .image-wrapper img {
@@ -111,19 +110,32 @@ header nav ul li:hover {
 
 .info-card {
   color: #424242;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
-  height: 100px;
+  height: 125px;
   text-align: center;
   background-color: #E7CFB5;
 }
 
-.info-card a {
+.info-card ul {
+  display: flex;
+  flex-direction: column;
+  height: 125px;
+}
+
+.info-card ul li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 62px;
+}
+
+.info-card ul li a {
   background-color: #F4A848;
   color: #FFFFFF;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  padding: 8px 24px;
+  padding: 0.5rem 1.5rem;
   border-radius: 6px;
 }
 
@@ -134,6 +146,6 @@ header nav ul li:hover {
 }
 
 .food-name {
-  margin: 10px 0;
-  margin-top: 18px
+  /* margin: 0.625rem 0; */
+  /* margin-top: 1.125rem; */
 }
